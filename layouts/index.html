@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="wrap hero" aria-labelledby="bonjour">
+  <div class="hero-copy">
+    <p class="eyebrow"><i></i>Carnet personnel</p>
+    <h1 id="bonjour">Bonjour,<br>moi c’est <em>Eylül.</em></h1>
+    <p class="intro">{{ .Params.intro }}</p>
+    <a class="button" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a>
+  </div>
+  <figure class="hero-art">
+    <img src="{{ "images/carnet.webp" | relURL }}" alt="Une fougère pressée sur les pages d’un carnet ouvert." width="1040" height="800" fetchpriority="high">
+    <figcaption><span>Carnet de botanique</span><i>Fougère pressée</i></figcaption>
+  </figure>
+</section>
+<section class="projects" aria-labelledby="projets">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="projets">Mes projets<span>.</span></h2>
+      <a class="underlined" href="{{ site.Params.github }}?tab=repositories">Tous les dépôts <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="cards">
+    {{ range (where site.RegularPages "Section" "projets").ByWeight }}
+      <article class="card">
+        <a href="{{ .RelPermalink }}" aria-labelledby="title-{{ .File.ContentBaseName }}">
+          <div class="cover"><img src="{{ .Params.image | relURL }}" alt="" width="640" height="390" loading="lazy"></div>
+          <p class="category">{{ .Params.category }}</p>
+          <h3 id="title-{{ .File.ContentBaseName }}">{{ .Title }} <span aria-hidden="true">↗</span></h3>
+          <p class="description">{{ .Description }}</p>
+        </a>
+      </article>
+    {{ end }}
+    </div>
+  </div>
+</section>
+<section id="a-propos" class="wrap about" aria-label="À propos de moi">
+  <div class="about-mark" aria-hidden="true">eu.</div>
+  <div>{{ .Content }}<a class="underlined" href="{{ site.Params.github }}">Mon profil GitHub ↗</a></div>
+</section>
+{{ end }}
