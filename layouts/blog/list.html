@@ -1,0 +1,5 @@
+{{ define "main" }}
+<section class="wrap story"><div class="story-head"><h1>{{ .Title }}</h1><p class="intro">{{ .Description }}</p></div>
+  {{ range .RegularPages.ByDate.Reverse }}{{ partial "post-card.html" . }}{{ end }}
+</section>
+{{ end }}

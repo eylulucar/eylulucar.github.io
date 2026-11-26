@@ -1,0 +1,8 @@
+<section class="media"><h2>{{ T "media" }}</h2>
+  {{ range $i, $id := slice "upoDc-BtsYo" "hfnmc74tyGc" }}
+  <div class="clip"><button type="button" hidden data-video="{{ $id }}">{{ T "load" }} {{ add $i 1 }} ▷</button>
+    <a href="https://www.youtube.com/watch?v={{ $id }}">{{ T "onYoutube" }} · {{ add $i 1 }} ↗</a>
+  </div>
+  {{ end }}
+  <a class="underlined" href="https://www.instagram.com/reel/DfMPPyDN4o-/">{{ T "reel" }} ↗</a>
+</section>

@@ -2,16 +2,16 @@
 <section class="cover-page" aria-labelledby="bonjour">
 <div class="wrap hero">
   <div class="hero-copy">
-    <p class="eyebrow"><i></i>Portfolio personnel</p>
-    <h1 id="bonjour">Le carnet<br><em>d’Eylül Uçar.</em></h1>
+    <p class="eyebrow"><i></i>{{ T "personal" }}</p>
+    <h1 id="bonjour">{{ T "headline" }}<br><em>{{ T "signature" }}</em></h1>
     <p class="intro">{{ .Params.intro }}</p>
-    <div class="hero-actions"><a class="button" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a><a class="hero-about" href="#a-propos">À propos de moi</a></div>
+    <div class="hero-actions"><a class="button" href="#projets">{{ T "discover" }} <span aria-hidden="true">↓</span></a><a class="hero-about" href="#a-propos">{{ T "aboutMe" }}</a></div>
   </div>
   <div class="assemblage"><figure class="hero-art">
-    <img src="{{ "images/carnet.webp" | relURL }}" alt="Une fougère pressée sur les pages d’un carnet ouvert." width="1040" height="800" fetchpriority="high">
-    <figcaption><span>Carnet de botanique</span><i>Fougère pressée</i></figcaption>
+    <img src="{{ "images/carnet.webp" | relURL }}" alt="{{ T "fernAlt" }}" width="1040" height="800" fetchpriority="high">
+    <figcaption><span>{{ T "notebook" }}</span><i>{{ T "fern" }}</i></figcaption>
   </figure>
-    <a class="postcard" href="{{ "projets/academie/" | relURL }}">
+    <a class="postcard" href="{{ (site.GetPage "/projets/academie").RelPermalink }}">
       <img src="{{ "images/crique.webp" | relURL }}" alt="" width="230" height="135">
       <span>SÜGEP Academy ↗</span>
     </a>
@@ -21,8 +21,8 @@
 <section class="projects" aria-labelledby="projets">
   <div class="wrap">
     <div class="section-head">
-      <h2 id="projets">Mes projets<span>.</span></h2>
-      <a class="underlined" href="{{ site.Params.github }}?tab=repositories">Tous les dépôts <span aria-hidden="true">↗</span></a>
+      <h2 id="projets">{{ T "myProjects" }}<span>.</span></h2>
+      <a class="underlined" href="{{ site.Params.github }}?tab=repositories">{{ T "repos" }} <span aria-hidden="true">↗</span></a>
     </div>
     <div class="cards">
     {{ range (where site.RegularPages "Section" "projets").ByWeight }}
@@ -38,8 +38,14 @@
     </div>
   </div>
 </section>
-<section id="a-propos" class="wrap about" aria-label="À propos de moi">
+{{ with site.GetPage "/blog" }}
+<section class="journal wrap" aria-labelledby="journal-title">
+  <div class="section-head"><h2 id="journal-title">Blog</h2><a class="underlined" href="{{ .RelPermalink }}">{{ T "allPosts" }} →</a></div>
+  {{ range first 1 .RegularPages.ByDate.Reverse }}{{ partial "post-card.html" . }}{{ end }}
+</section>
+{{ end }}
+<section id="a-propos" class="wrap about" aria-label="{{ T "aboutMe" }}">
   <div class="about-mark" aria-hidden="true">eu.</div>
-  <div>{{ .Content }}<a class="underlined" href="{{ site.Params.github }}">Mon profil GitHub ↗</a></div>
+  <div>{{ .Content }}<a class="underlined" href="{{ site.Params.github }}">{{ T "profile" }} ↗</a></div>
 </section>
 {{ end }}

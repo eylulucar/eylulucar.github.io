@@ -2,9 +2,28 @@ baseURL = 'https://eylulucar.com/'
 languageCode = 'fr'
 defaultContentLanguage = 'fr'
 title = 'Eylül Uçar'
-disableKinds = ['taxonomy', 'term', 'RSS', 'section']
+disableKinds = ['taxonomy', 'term', 'RSS']
 timeZone = 'UTC'
 
 [params]
 description = "Le carnet d’Eylül Uçar. Des projets pour explorer l’écologie, apprendre le français et pratiquer la programmation."
 github = 'https://github.com/eylulucar'
+
+[languages.fr]
+languageName = 'Français'
+languageCode = 'fr'
+weight = 1
+
+[languages.en]
+languageName = 'English'
+languageCode = 'en'
+weight = 2
+[languages.en.params]
+description = "Eylül Uçar’s notebook on ecology, French and programming."
+
+[languages.tr]
+languageName = 'Türkçe'
+languageCode = 'tr'
+weight = 3
+[languages.tr.params]
+description = "Eylül Uçar’ın ekoloji, Fransızca ve programlama üzerine kişisel defteri."

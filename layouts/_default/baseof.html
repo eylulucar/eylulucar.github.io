@@ -7,24 +7,45 @@
   <meta name="description" content="{{ .Description | default site.Params.description }}">
   <title>{{ .Title }}{{ if not .IsHome }} · {{ site.Title }}{{ end }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+  <script defer src="{{ "media.js" | relURL }}"></script>
   <link rel="icon" href="{{ "favicon.png" | relURL }}">
   <link rel="stylesheet" href="{{ "style.css" | relURL }}">
 </head>
 <body id="haut">
-  <a class="skip" href="#contenu">Aller au contenu</a>
+  <a class="skip" href="#contenu">{{ T "skip" }}</a>
   <header class="masthead">
     <div class="wrap nav">
-      <a class="signature" href="{{ site.Home.RelPermalink }}" aria-label="Eylül Uçar, accueil">
+      <a class="signature" href="{{ site.Home.RelPermalink }}" aria-label="Eylül Uçar · {{ T "home" }}">
         <span class="monogram" aria-hidden="true">e.</span>Eylül Uçar
       </a>
-      <nav aria-label="Navigation principale">
-        <a href="{{ site.Home.RelPermalink }}#projets">Projets</a>
-        <a href="{{ site.Home.RelPermalink }}#a-propos">À propos</a>
+      <nav aria-label="{{ T "menu" }}">
+        <a href="{{ site.Home.RelPermalink }}#projets">{{ T "projects" }}</a>
+        <a href="{{ site.Home.RelPermalink }}#a-propos">{{ T "about" }}</a>
+        {{ with site.GetPage "/blog" }}<a href="{{ .RelPermalink }}">Blog</a>{{ end }}
+        <a href="#contact">{{ T "contact" }}</a>
         <a class="profile" href="{{ site.Params.github }}">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
+      <details class="lang"><summary aria-label="{{ T "language" }} · {{ .Language.LanguageName }}">{{ upper .Language.Lang }} ▾</summary><div>
+        {{ $current := .Language.Lang }}{{ range .AllTranslations }}
+        <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $current }} aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div></details>
     </div>
   </header>
   <main id="contenu">{{ block "main" . }}{{ end }}</main>
-  <footer><div class="wrap foot"><span>Eylül Uçar</span><a href="#haut">Haut de page ↑</a></div></footer>
+  <footer>
+    <div class="wrap footer-panels">
+      <section id="contact"><h2>{{ T "contact" }}</h2>
+        <dl><dt>{{ T "personalMail" }}</dt><dd><a href="mailto:eylul@eylulucar.com">eylul@eylulucar.com</a></dd>
+        <dt>{{ T "academyMail" }}</dt><dd><a href="mailto:eylulucar@sugepacademy.org">eylulucar@sugepacademy.org</a></dd></dl>
+      </section>
+      <section class="radio"><h2>Radio Paradise</h2>
+        <audio controls preload="none" aria-label="{{ T "radioLabel" }}" src="https://stream.radioparadise.com/mp3-192"></audio>
+        <a class="underlined" href="https://radioparadise.com/player">{{ T "radioLink" }} ↗</a>
+      </section>
+    </div>
+    <div class="wrap foot"><span>Eylül Uçar</span><a href="#haut">{{ T "top" }} ↑</a></div>
+  </footer>
 </body>
 </html>

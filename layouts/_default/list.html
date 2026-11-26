@@ -1,0 +1,5 @@
+{{ define "main" }}
+<section class="wrap story"><div class="story-head"><h1>{{ .Title }}</h1></div>
+  {{ range .RegularPages.ByWeight }}<article class="post-card"><p class="category">{{ .Params.category }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+</section>
+{{ end }}

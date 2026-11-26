@@ -17,3 +17,21 @@ Dans **Settings → Pages**, choisissez **GitHub Actions** comme source. Le work
 Dans **Settings → Pages → Custom domain**, indiquez `eylulucar.com` puis configurez les enregistrements DNS auprès du fournisseur du domaine. [Instructions de GitHub pour un domaine personnalisé](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 Les photographies d’illustration ont été générées pour ce carnet. Les licences des polices hébergées localement figurent dans `static/fonts/`.
+
+## Écrire un billet de blog
+
+Sur GitHub, ouvrez `content/blog/`, puis **Add file → Create new file**. Créez par exemple `ma-lecture.md`. Le français reste la langue par défaut. Utilisez un nom distinct pour chaque billet et la date de publication souhaitée.
+
+```markdown
+---
+title: "Une lecture à partager"
+description: "Une courte présentation du billet."
+date: 2026-11-26
+---
+
+## Ce que j’ai découvert
+
+Écrivez ici votre texte, avec des [liens](https://apprendre.tv5monde.com/fr), des listes ou des citations.
+```
+
+Pour les traductions, créez `ma-lecture.en.md` et `ma-lecture.tr.md` dans le même dossier. Hugo relie les versions qui existent, classe les billets par date et publie la mise à jour après un commit sur `main`. Les projets et l’accueil suivent la même convention.

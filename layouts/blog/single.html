@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="wrap story essay">
+  <a class="back" href="{{ .Parent.RelPermalink }}">← {{ T "allPosts" }}</a>
+  <header class="story-head"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+    <h1>{{ .Title }}</h1><p class="intro">{{ .Description }}</p></header>
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}
