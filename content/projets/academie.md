@@ -9,9 +9,15 @@ sourceURL: "https://sugepacademy.org/fr/"
 academyMedia: true
 weight: 1
 ---
-## Du terrain au carnet
+## Ce qu’on explore à l’Académie
 
-À SÜGEP Academy, les jeunes abordent les objectifs de développement durable à travers des questions concrètes. Comment intégrer l’énergie solaire à un vêtement ? Quels matériaux peut-on explorer dans un atelier sur les biopolymères ?
+Je fais partie des jeunes qui s’engagent pour le développement durable à SÜGEP Academy. Trois projets de l’Académie montrent comment une même question peut nous emmener du côté du design, des matériaux ou de la biologie.
+
+- **La veste solaire.** Est-ce qu’un vêtement peut capter la lumière du soleil ? Ce projet explore une façon d’utiliser l’énergie solaire au quotidien.
+- **Les ateliers sur les biopolymères.** Les élèves étudient des matériaux d’origine biologique et se demandent ce que le choix d’un matériau change dans la conception d’un objet.
+- **Les recherches sur Lithophaga.** Un projet de lycéens d’İzmir sur les dattes de mer et les calculs rénaux relie la biologie marine à une question de santé. Deux articles sur cette étude figurent plus bas.
+
+[Découvrir les projets de terrain de l’Académie](https://sugepacademy.org/fr/#projeler).
 
 ## Découvrir les projets
 

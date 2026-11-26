@@ -9,9 +9,15 @@ sourceURL: "https://sugepacademy.org/"
 weight: 1
 academyMedia: true
 ---
-## Sahadan deftere
+## Akademide neler yapıyoruz?
 
-SÜGEP Academy’de gençler, Sürdürülebilir Kalkınma Amaçlarını somut sorular üzerinden ele alıyor. Bir mont güneş enerjisini nasıl kullanabilir? Bir biyopolimer atölyesinde hangi malzemeleri inceleyebiliriz?
+SÜGEP Academy’nin genç sürdürülebilirlik liderlerinden biriyim. Akademide ele aldığımız üç konu, “sürdürülebilirlik” denince neden birbirinden çok farklı derslerin akla gelebileceğini gösteriyor.
+
+- **Solar Mont.** Bir giysinin üzerine güneş paneli yerleştirme fikri, yenilenebilir enerjiyi günlük hayatta nasıl kullanabileceğimiz sorusundan doğuyor.
+- **Biyopolimer atölyeleri.** Biyolojik kaynaklı malzemeleri incelemek, bir ürünü tasarlarken malzeme seçiminin neden önemli olduğunu tartışmanın bir yolu.
+- **Lithophaga araştırması.** İzmirli öğrencilerin hurma midyesi ile böbrek taşları üzerine çalışması deniz biyolojisiyle sağlık araştırmasını buluşturuyor. Aşağıda çalışmayı anlatan iki haber var.
+
+[Akademinin saha projelerine göz at](https://sugepacademy.org/#projeler).
 
 ## Projeleri keşfet
 

@@ -1,28 +1,25 @@
 ---
-title: "Apprendre le français gratuitement, de la première écoute au petit résumé"
-description: "Trois ressources pédagogiques et une séance de quinze minutes pour passer d’une vidéo ou d’un journal radio à quelques phrases à soi."
+title: "Qu’est-ce que je comprends vraiment aux infos en français ?"
+description: "Quand un mot m’échappe, j’ai envie d’ouvrir le dictionnaire. Et si je laissais tourner le son encore un peu ?"
 date: 2026-11-26
+image: "images/presse.webp"
+imageAlt: "Des lunettes de lecture posées sur un journal plié."
 ---
 
-Une vidéo de deux minutes peut suffire pour toute une séance de français. Avant d’appuyer sur lecture, je propose de choisir une question simple : **qui parle, de quoi, et où ?** Voici trois ressources gratuites pour travailler des compétences différentes.
+Imaginons que j’entende *la pluie* dans un bulletin météo. D’accord, il est question de pluie. Mais il a plu ce matin ou il va pleuvoir demain ? Si j’arrive à faire la différence, là, j’ai compris quelque chose. J’aime bien partir d’une question aussi petite pour travailler mon français.
 
-## Pour commencer avec une vidéo
+## Deviner avant d’écouter
 
-Sur [TV5MONDE – Apprendre le français](https://apprendre.tv5monde.com/fr), les exercices sont classés par niveau. Si vous débutez, cherchez le parcours **Première classe**, au niveau A1. Regardez une première fois la scène pour repérer le lieu et les personnages. Au deuxième passage, essayez de relever une expression que vous pourriez réutiliser pour vous présenter ou demander un renseignement.
+Sur [TV5MONDE](https://apprendre.tv5monde.com/fr), il y a un parcours gratuit pour les débutants qui s’appelle **Première classe** (A1). Essaie de regarder une scène sans le son. À ton avis, ces deux personnes viennent de se rencontrer ou elles se connaissent déjà ? En remettant le son, on a tout de suite envie de savoir si on avait vu juste.
 
-## Pour comprendre une actualité à l’oreille
+## Une info, une phrase dans mon carnet
 
-Le [Journal en français facile de RFI](https://francaisfacile.rfi.fr/fr/podcasts/journal-en-fran%C3%A7ais-facile/) accompagne ses éditions d’une transcription. Même avec un vocabulaire simplifié, un journal entier peut être exigeant. Choisissez un seul sujet. Écoutez-le une fois sans lire, puis comparez ce que vous avez compris avec la transcription. Un nom de lieu ou un mot qui revient peut servir de point de départ à votre résumé.
+Ce que j’aime dans le [Journal en français facile de RFI](https://francaisfacile.rfi.fr/fr/podcasts/journal-en-fran%C3%A7ais-facile/), c’est qu’on peut lire ce qui vient d’être dit. Même avec *facile* dans le titre, je ne m’attends pas à suivre tout le journal. Si j’ai un quart d’heure, je choisirais un seul sujet.
 
-## Pour découvrir le format du DELF
+L’idée, c’est de l’écouter, d’écrire une phrase de mémoire et ensuite seulement d’ouvrir la transcription. Si j’entends *il va pleuvoir*, par exemple, la pluie est encore à venir. Une liste de mots avec juste *pluie* et sa traduction ne me dirait rien sur ce petit détail.
 
-[France Éducation international](https://www.france-education-international.fr/diplome/delf-junior-scolaire) présente le DELF junior/scolaire et des exemples de sujets par niveau. Choisissez un exemple de compréhension orale ou écrite. Avant de consulter le corrigé, notez l’indice précis qui justifie votre réponse. Ces exemples officiels sont gratuits ; l’inscription à l’examen est une démarche distincte.
+## Quel mot m’a mise sur la piste ?
 
-## Une séance de quinze minutes
+[France Éducation international](https://www.france-education-international.fr/diplome/delf-junior-scolaire) propose des sujets gratuits du DELF junior/scolaire, classés par niveau. Pour une question de lecture, imagine que tu dois expliquer ta réponse à quelqu’un de ta classe. Quel mot du texte lui montrerais-tu ? Ça aide à voir si on a compris ou si on a juste coché la bonne case par chance.
 
-1. **Trois minutes** pour écouter ou lire un extrait et en noter le sujet.
-2. **Cinq minutes** pour reprendre le passage et vérifier deux expressions en contexte.
-3. **Cinq minutes** pour écrire deux phrases sur le sujet, puis une question à poser à un camarade.
-4. **Deux minutes** pour relire le résumé à voix haute.
-
-Gardez le premier résumé dans votre carnet. Une semaine plus tard, reprenez le même extrait et essayez de le raconter sans vos notes.
+Pas besoin de faire le tour des trois sites ce soir. Moi, je garderais une question pour la fin : si j’écoutais la météo en français, est-ce que je saurais s’il faut prendre mon parapluie demain ?

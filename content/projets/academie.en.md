@@ -9,9 +9,15 @@ sourceURL: "https://sugepacademy.org/en/"
 weight: 1
 academyMedia: true
 ---
-## From the field to the notebook
+## What we explore at the Academy
 
-At SÜGEP Academy, students approach the Sustainable Development Goals through practical questions. How could a jacket capture solar energy? What materials could we investigate in a biopolymer workshop?
+I’m one of SÜGEP Academy’s young sustainability leaders. Three examples from the Academy show how differently a designer, a materials student and a biologist might approach sustainability.
+
+- **Solar Jacket.** Could a piece of clothing capture sunlight? The project explores wearable solar energy in everyday life.
+- **Biopolymer workshops.** Students look at materials from biological sources and consider how choosing a material changes a design.
+- **Lithophaga research.** An İzmir student project on date mussels and kidney stones brings marine biology into a health research question. Two reports on the study are linked below.
+
+[See the Academy’s field projects](https://sugepacademy.org/en/#projeler).
 
 ## Explore the projects
 
