@@ -1,15 +1,22 @@
 {{ define "main" }}
-<section class="wrap hero" aria-labelledby="bonjour">
+<section class="cover-page" aria-labelledby="bonjour">
+<div class="wrap hero">
   <div class="hero-copy">
-    <p class="eyebrow"><i></i>Carnet personnel</p>
-    <h1 id="bonjour">Bonjour,<br>moi c’est <em>Eylül.</em></h1>
+    <p class="eyebrow"><i></i>Portfolio personnel</p>
+    <h1 id="bonjour">Le carnet<br><em>d’Eylül Uçar.</em></h1>
     <p class="intro">{{ .Params.intro }}</p>
-    <a class="button" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a>
+    <div class="hero-actions"><a class="button" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a><a class="hero-about" href="#a-propos">À propos de moi</a></div>
   </div>
-  <figure class="hero-art">
+  <div class="assemblage"><figure class="hero-art">
     <img src="{{ "images/carnet.webp" | relURL }}" alt="Une fougère pressée sur les pages d’un carnet ouvert." width="1040" height="800" fetchpriority="high">
     <figcaption><span>Carnet de botanique</span><i>Fougère pressée</i></figcaption>
   </figure>
+    <a class="postcard" href="{{ "projets/academie/" | relURL }}">
+      <img src="{{ "images/crique.webp" | relURL }}" alt="" width="230" height="135">
+      <span>SÜGEP Academy ↗</span>
+    </a>
+  </div>
+</div>
 </section>
 <section class="projects" aria-labelledby="projets">
   <div class="wrap">

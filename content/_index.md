@@ -1,6 +1,6 @@
 ---
 title: "Le carnet d’Eylül Uçar"
-intro: "J’apprends le français et Python. Dans ce carnet, je partage des projets qui relient les langues, le code et le développement durable."
+intro: "Je m’appelle Eylül. J’explore l’écologie, je lis la presse en français et j’écris du code. Voici ce que ces trois curiosités m’ont donné envie de créer."
 ---
 ## À propos de moi
 

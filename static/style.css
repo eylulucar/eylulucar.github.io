@@ -114,3 +114,44 @@ footer { border-top: 1px solid var(--rule); padding: 18px 0; }
   .signature .monogram { display: none; }
   nav { gap: 10px; }
 }
+
+/* An open notebook and a linked field photograph form the cover of the portfolio. */
+.cover-page {
+  color: #fff5e5;
+  background: radial-gradient(ellipse at 80% 42%, #683442, transparent 58%), #43212e;
+}
+.cover-page .hero { padding-block: clamp(48px,5.3vw,88px); }
+.cover-page .eyebrow { color: #ecd2ab; }
+.cover-page .eyebrow i { background: currentColor; }
+.cover-page .hero h1 { margin-block: 21px; font-size: clamp(65px,7.6vw,115px); }
+.cover-page .hero h1 em { color: #f2c8ad; }
+.cover-page .intro { color: #eadbd3; max-width: 40ch; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 24px; }
+.hero-actions .button { background: #f8e8d3; color: #482531; margin: 0; }
+.hero-actions .button:hover { background: white; }
+.hero-about { font-size: 14px; text-decoration: underline; text-underline-offset: 5px; }
+.cover-page a:focus-visible { outline-color: #fff2cb; }
+.assemblage { position: relative; padding: 0 0 30px 4%; }
+.assemblage .hero-art { transform: rotate(3deg); box-shadow: 0 15px 30px #22101a48; }
+.postcard { position: absolute; bottom: 0; left: -3%; width: 32%; min-width: 125px; background: #fffaf0; color: var(--wine); padding: 5px; transform: rotate(-8deg); box-shadow: 2px 5px 10px #20151a55; }
+.postcard img { width: 100%; height: auto; aspect-ratio: 1.85; object-fit: cover; }
+.postcard span { display: block; padding: 4px; font: italic 17px/1.1 var(--serif); }
+.postcard:hover { transform: rotate(-5deg); }
+.projects { background: var(--paper); }
+@media (min-width: 900px) {
+  .cards { grid-template-columns: 1.08fr 1fr; gap: 20px 32px; }
+  .card:first-child { grid-row: span 2; }
+  .card:first-child .cover img { aspect-ratio: 2.15; }
+  .card:not(:first-child) { border-top: 1px solid var(--rule); padding-top: 16px; }
+  .card:not(:first-child) a { display: grid; grid-template-columns: 38% 1fr; column-gap: 21px; align-content: start; }
+  .card:not(:first-child) .cover { grid-row: span 3; align-self: start; }
+  .card:not(:first-child) img { aspect-ratio: 1.1; }
+  .card:not(:first-child) .category { margin-top: 2px; }
+}
+.about { border-top: 1px solid var(--rule); }
+@media (max-width: 620px) {
+  .cover-page .hero { padding-block: 36px; }
+  .assemblage { width: min(95%,440px); justify-self: center; padding-bottom: 18px; }
+  .postcard { min-width: 100px; }
+  .postcard span { font-size: 14px; }
+}
